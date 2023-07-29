@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg-danger2{background: #FD0100;}
+.bg-primary2{background: #02006D;}
+.bg-warning2{background: #f0aa00;}
+.bg-info2{background: #3db2d5;}
+.text-primary2{color: #02006D;}
+
+/*Nav Section Start*/
+.nav-item{
+    padding: 25px 22px;
+}
+.nav-item:hover{
+    background:#FD0100;   
+}
+.nav-item:hover .nav-link{
+    color: #fff;
+}
+.dropdown:hover .dropdown-menu{
+    left: 0px;
+    top: 90px;
+    border: none;
+    display: block;
+    width: 250px;
+    border-radius: 0;
+}
+.dropdown-item{
+    font-weight: 600;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    color: #fff;
+    background: #ffb607;
+}
+/*Nav Section End*/
+
+/* Slider Section Start */
+.carousel-caption{
+    bottom: 27rem;
+}
+.carousel-caption h5, .carousel-caption p{
+    font-size: 60px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.carousel-caption p{
+    font-size: 18px;
+}
+.carousel-item:first-child{
+    animation: slideup 0.8s;
+}
+.carousel-item:nth-child(2){
+    animation: slidedown 0.9s;
+}
+.carousel-indicators{
+    margin-bottom: 10rem;
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    bottom: 200px;
+    border-radius: 50%;
+}
+
+
+@keyframes slideup {
+    0%{
+        transform: translateY(350px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes slidedown {
+    0%{
+        transform: translateY(-350px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+/* Slider Section End */
+
+/* Our Feature Section Start */
+.ourFeature{
+    position: relative;
+    top: -50px;
+}
+@media (min-width: 992px) {
+    .ourFeature{
+        position: relative;
+        top: -150px !important;
+    }
+}
+/* Our Feature Section End */
+
+/* Online Learning Section Start */
+.onlineLearning p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #52575e;
+    font-weight: 400;
+}
+/* Online Learning Section End */
