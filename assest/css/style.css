@@ -8,7 +8,13 @@
 .bg-warning2{background: #f0aa00;}
 .bg-info2{background: #3db2d5;}
 .text-primary2{color: #02006D;}
+.bg-dark2{background: #232936;}
 
+p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #52575e;
+}
 /*Nav Section Start*/
 .nav-item{
     padding: 25px 22px;
@@ -106,3 +112,110 @@
     font-weight: 400;
 }
 /* Online Learning Section End */
+/* Popular Section Start */
+.popular{
+    width: 100%;
+    height: 520px;
+    background:linear-gradient(rgba(25, 24, 24, 0.5),rgba(0,0,0,0.5)), url(../img/bg.jpg);
+}
+.popular h1{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.popular h1::after{
+    content: "";
+    width: 54px;
+    height: 2px;
+    position: absolute;
+    border-bottom: 5px solid #ddb202;
+    bottom: -20px;
+    left: 50%;
+}
+/* Popular Section End*/
+
+/* Contact Us section Start */
+.contactUs{
+    width: 100%;
+    /* height: 0px; */
+    background: url(../img/contactbg.jpg) no-repeat top;
+    background-size: cover;
+}
+.contactUs h2{
+    font-weight: bold;
+    font-size: 48px;
+    color: #56225e;
+}
+.contactUs h2 span{
+    display: block;
+}
+.contactUs p{
+    font-weight: 500;
+    font-size: 15px;
+}
+.contactUs a{
+    font-size: 16px;
+    font-weight: 600;
+}
+.contactUs a:hover{
+    background: #000;
+    transition: 0.2s linear;
+}
+/* Contact Us section End */
+/* photo gallary Section start */
+.photo-gallery{
+    width: 100%;
+    background: url(../img/gallery-bg.jpg);
+}
+.photo-gallery h1{
+    font-size: 48px;
+    color: #56225e;
+}
+.photo-gallery a:hover{
+    background: #02006D;
+}
+.photo-gallery .magnify img:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/magnify.png);
+    z-index: 9;
+}
+
+/* photo gallary Section End */
+
+/* Footer Section Start */
+    .text-white2{color:#bcc5d0;}
+    footer li{
+        list-style-type: none;
+        margin-left: -30px;
+        line-height: 32px;
+    }
+    footer .quick li:before {
+        content: "\f0da";
+        font-weight: 600;
+        font-family: 'Font Awesome 5 Free';
+        padding-right: 10px;
+        color: #bcc5d0;
+        font-size: 14px;
+    }
+    footer a{
+        text-decoration: none;
+        font-weight: 400;
+        color:#bcc5d0;
+    }
+    footer a:hover{
+        color: #d24882;
+        transition: 0.3s all;
+    }
+    footer .opening li{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #bcc5d0;
+    }
+    .abc{
+        border: none !important;
+    }
+    footer .social{
+        font-size: 20px;
+        padding: 10px 17px;
+        border-radius: 50%;
+    }
+/* Footer Section End */
